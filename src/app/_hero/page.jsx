@@ -70,7 +70,7 @@ export default function Hero() {
       </div>
 
       {/* Menu Icon */}
-      <div className="fixed top-8 right-20 z-99">
+      <div className="fixed top-8 right-4 md:right-20 z-99">
         <button
           className="w-10 h-10 bg-[#4c8faa] rounded-full flex items-center justify-center cursor-pointer"
           onClick={() => setMenuOpen(!menuOpen)}
