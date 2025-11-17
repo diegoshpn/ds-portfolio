@@ -22,7 +22,7 @@ import {
 const projects = [
   {
     title: "SmartSLOT",
-    description: "Sistema completo de gestão e agendamento para clínicas, salões e etc.",
+    description: "Sistema completo de gestão e agendamento para clínicas.",
     images: [
       "/smartslot/smartslot1.png",
       "/smartslot/smartslot2.png",
@@ -36,7 +36,7 @@ const projects = [
   },
   {
     title: "BarbeariaPRO",
-    description: "Sistema de gestão para barbearias",
+    description: "Sistema de gestão para barbearias.",
     images: [
       "/barbeariapro/barberpro-thumb.png",
       "/barbeariapro/barberpro2.png",
@@ -48,7 +48,7 @@ const projects = [
   },
   {
     title: "Pizzaria Modelo - Admin",
-    description: "Sistema de gestão para pizzarias (projeto de estudo)",
+    description: "Sistema de gestão para pizzarias (projeto de estudo).",
     images: [
       "/pizzaria/pizzaria1.png",
       "/pizzaria/pizzaria2.png",
@@ -60,7 +60,7 @@ const projects = [
   },
   {
     title: "Pizzaria Modelo",
-    description: "Sistema para pedidos online de uma pizzaria (projeto de estudo)",
+    description: "Sistema para pedidos online (projeto de estudo).",
     images: [
       "/cardapio/cardapio1.png",
       "/cardapio/cardapio2.png",
@@ -71,7 +71,7 @@ const projects = [
   },
   {
     title: "XPN Linktree",
-    description: "Linktree personalizado para desenvolvedores",
+    description: "Crie e gerencie seus links personalizados.",
     images: [
       "/xpnlink/xpnlink1.png",
       "/xpnlink/xpnlink2.png",
@@ -83,7 +83,7 @@ const projects = [
   },
   {
     title: "Petshop Virtual",
-    description: "LandingPage para petshops",
+    description: "LandingPage para petshops.",
     images: [
       "/petshop/petshop1.png",
       "/petshop/petshop2.png",

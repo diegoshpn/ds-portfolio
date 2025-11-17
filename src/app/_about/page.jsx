@@ -31,12 +31,12 @@ function About(){
           <p className="text-gray-400">Autodidata | Organizado | Comprometido | Flexível</p>
         </div>
         <p className="mt-10 text-justify max-w-lg text-wrap">
-          Formado em Análise e Desenvolvimento de Sistemas, com experiência em desenvolvimento fullstack, atuando em projetos que vão desde websites institucionais até aplicações web complexas. Apaixonado por tecnologia e sempre em busca de novos desafios para aprimorar minhas habilidades e contribuir para o sucesso dos projetos.
+          Formado em Análise e Desenvolvimento de Sistemas e com foco em desenvolvimento fullstack, atuo em projetos que vão desde websites institucionais até aplicações web complexas. Apaixonado por tecnologia e sempre em busca de novos desafios para aprimorar minhas habilidades e contribuir para o sucesso dos clientes.
         </p>
         <div className="mt-10 gap-5 grid grid-cols-1 md:flex">
           <a href="#contacts">
-            <Button className="uppercase cursor-pointer bg-cyan-500 shadow-lg shadow-cyan-500/50 hover:bg-cyan-300">
-              Vamos alavancar seu negócio
+            <Button className="uppercase font-semibold cursor-pointer bg-cyan-500 shadow-lg shadow-cyan-500/50 hover:bg-cyan-300">
+              Entrar em contato
             </Button>
           </a>
           {/* <Button className="uppercase cursor-pointer ring-1 ring-[#4c8faa] bg-transparent text-[#4c8faa] hover:bg-[#4c8faa] hover:text-white">

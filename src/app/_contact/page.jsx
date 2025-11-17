@@ -8,7 +8,7 @@ const contacts = [
     name: "WhatsApp",
     icon: <FaWhatsapp className="w-18 h-18 text-[#4c8faa]" />,
     info: "(85) 98699-8327",
-    url: "https://api.whatsapp.com/send?phone=5585986998327"
+    url: "https://api.whatsapp.com/send?phone=5585986998327&text=Olá, Diego. Gostei dos seus trabalhos e gostaria de conversar com você!"
   },
   {
     name: "E-mail",
