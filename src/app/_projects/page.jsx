@@ -103,7 +103,7 @@ function Projects() {
               </h2>
               <button
                 onClick={() => setSelectedProject(project)}
-                className="bg-[#4c8faa] text-white px-6 py-2 rounded-full font-bold hover:bg-[#3a6d8c] transition-all duration-300 opacity-0 translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 cursor-pointer"
+                className="bg-[#4c8faa] text-white px-6 py-2 rounded-full font-bold hover:bg-[#3a6d8c] transition-all duration-300 opacity-100 translate-y-0 md:opacity-0 md:translate-y-4 md:group-hover:opacity-100 md:group-hover:translate-y-0 cursor-pointer"
               >
                 Ver Mais
               </button>
