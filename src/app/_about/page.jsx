@@ -4,7 +4,7 @@ import { IoMdDownload } from "react-icons/io";
 
 function About(){
   return (    
-    <section id="about" className="md:flex grid grid-cols-1 items-center justify-center bg-linear-to-r from-gray-200 to-gray-300 gap-32 w-full min-h-[800px]">
+    <section id="about" className="md:flex grid grid-cols-1 items-center justify-center bg-radial from-gray-900 to-gray-800 gap-32 w-full min-h-[800px]">
       <div 
         className="p-10"
         data-aos="fade-right"
@@ -27,11 +27,12 @@ function About(){
         data-aos-easing="ease-in-sine"
       >
         <div className="flex flex-col gap-2">
-          <h1 className="text-[#4c8faa] text-4xl font-bold mb-2 uppercase">Sobre</h1>
+          <h1 className="text-white text-4xl font-bold uppercase">Sobre</h1>
+          <div className="border border-b-2 rounded w-15 border-[#4c8faa] mb-2"></div>
           <p className="text-gray-400">Autodidata | Organizado | Comprometido | Flexível</p>
         </div>
-        <p className="mt-10 text-justify max-w-lg text-wrap">
-          Formado em Análise e Desenvolvimento de Sistemas e com foco em desenvolvimento fullstack, atuo em projetos que vão desde websites institucionais até aplicações web complexas. Apaixonado por tecnologia e sempre em busca de novos desafios para aprimorar minhas habilidades e contribuir para o sucesso dos clientes.
+        <p className="mt-10 text-gray-400 text-justify max-w-lg text-wrap">
+          Formado em Análise e Desenvolvimento de Sistemas e com foco em Desenvolvimento Fullstack, atuo em projetos que vão desde websites institucionais até aplicações web complexas sempre utilizando as tecnologias mais modernas e eficientes. Fascinado por tecnologia e sempre em busca de novos desafios para aprimorar minhas habilidades e contribuir para o sucesso dos clientes.
         </p>
         <div className="mt-10 gap-5 grid grid-cols-1 md:flex">
           <a href="#contacts">
@@ -39,10 +40,6 @@ function About(){
               Entrar em contato
             </Button>
           </a>
-          {/* <Button className="uppercase cursor-pointer ring-1 ring-[#4c8faa] bg-transparent text-[#4c8faa] hover:bg-[#4c8faa] hover:text-white">
-            <IoMdDownload />
-            Download CV
-          </Button> */}
         </div>
       </div>
     </section>

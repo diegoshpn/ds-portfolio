@@ -3,6 +3,7 @@ import Hero from "./_hero/page";
 import Skills from "./_skills/page";
 import Projects from "./_projects/page"
 import Contact from "./_contact/page";
+import Footer from "./_footer/page";
 
 function Page(){
   return (
@@ -12,6 +13,7 @@ function Page(){
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   )
 }

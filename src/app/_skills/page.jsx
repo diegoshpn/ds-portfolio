@@ -49,7 +49,9 @@ function Skills(){
   return (
     <section className="flex justify-center w-full min-h-[800px] bg-radial from-gray-900 to-gray-800">
       <div className="flex flex-col items-center justify-center mt-10 md:-mt-20 mb-20 md:mb-2 gap-20 w-full max-w-7xl">
-        <p className="text-4xl text-gray-300 font-bold text-center" data-aos="fade-down">Minhas Especialidades</p>
+        <h1 className="text-4xl text-gray-300 font-bold text-center" data-aos="fade-down">Minhas Especialidades</h1>
+        <div className="border border-b-2 rounded w-44 border-[#4c8faa] -mt-15"></div>
+        <p className="text-gray-400 text-center max-w-2xl -mt-15">Busco sempre usar as principais tecnologias do mercado para entregar soluções eficientes e modernas.</p>
         <div className="grid grid-cols-2 md:grid-cols-6 gap-20" data-aos="fade-up">
           {techSkills.map((skill, index) => (
             <Magnet padding={50} disabled={false} magnetStrength={5} key={index}>

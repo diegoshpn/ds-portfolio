@@ -62,11 +62,18 @@ export default function Hero() {
         />
 
         {/* CTA Button */}
-        <a href="#projects">
-          <Button data-aos="zoom-in" className="uppercase bg-cyan-500 shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 mx-auto w-[150px] mt-20 text-white px-6 py-3 rounded-lg cursor-pointer hover:scale-110 transition-transform duration-1000">
-            Ver projetos
-          </Button>
-        </a>
+        <div className="flex flex-row items-center justify-center gap-4">
+          <a href="https://api.whatsapp.com/send?phone=5585986998327&text=Olá, Diego. Gostei dos seus trabalhos e gostaria de conversar com você!" target="_blank">
+            <Button data-aos="zoom-in" className="uppercase bg-cyan-500 shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 mx-auto w-[120px] mt-20 text-white font-bold px-6 py-3 rounded-lg cursor-pointer hover:scale-110 transition-transform duration-1000">
+              Contato
+            </Button>
+          </a>
+          <a href="#projects">
+            <Button data-aos="zoom-in" className="uppercase bg-cyan-500 shadow-lg shadow-cyan-500/50 hover:bg-cyan-300 mx-auto w-[120px] mt-20 text-white font-bold px-6 py-3 rounded-lg cursor-pointer hover:scale-110 transition-transform duration-1000">
+              Projetos
+            </Button>
+          </a>
+        </div>
       </div>
 
       {/* Menu Icon */}

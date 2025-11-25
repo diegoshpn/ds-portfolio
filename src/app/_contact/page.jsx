@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaWhatsapp, FaLinkedinIn } from "react-icons/fa";
+import { FaWhatsapp, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { MdOutlineMail } from "react-icons/md";
 import { SiGithub } from "react-icons/si";
 
@@ -15,6 +15,12 @@ const contacts = [
     icon: <MdOutlineMail className="w-12 h-12 md:w-18 md:h-18 text-[#4c8faa]" />,
     info: "soares670@hotmail.com",
     url: "mailto:soares670@hotmail.com"
+  },
+  {
+    name: "Instagram",
+    icon: <FaInstagram className="w-12 h-12 md:w-18 md:h-18 text-[#4c8faa]" />,
+    info: "@diegoshpn",
+    url: "https://instagram.com/diegoshpn"
   },
   {
     name: "LinkedIn",
@@ -33,12 +39,13 @@ const contacts = [
 function Contact(){
   return (
     <section id="contacts" className="flex justify-center w-full min-h-[600px] bg-radial from-gray-900 to-gray-800">
-      <div className="flex flex-col items-center mt-20 w-full max-w-7xl">
+      <div className="flex flex-col items-center mt-20 w-full">
         <div className="flex flex-col text-center items-center justify-center gap-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-          <p className="text-4xl text-gray-300 font-bold">Contato</p>
-          <p className="text-md md:text-lg text-gray-200 mt-5">Quer iniciar um projeto ou apenas trocar uma ideia? Será um prazer conversar com você.</p>
+          <h1 className="text-4xl text-white font-bold">Contato</h1>
+          <div className="border border-b-2 rounded w-25 border-[#4c8faa]"></div>
+          <p className="text-md md:text-lg text-gray-400">Quer iniciar um projeto ou apenas trocar uma ideia? Será um prazer conversar com você.</p>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-4 md:gap-20" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+        <div className="grid grid-cols-2 md:grid-cols-5 md:gap-20 mb-10" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
           {contacts.map((contact, index) => (
             <Link
               href={contact.url}
